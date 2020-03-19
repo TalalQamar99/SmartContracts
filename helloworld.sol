@@ -9,14 +9,16 @@ contract test{
     }
     
     // this function demonstrates the use of **view** . It is used for a function which is 
-    // read only  
+    // read only
+    
     function retName() public view returns(string) 
     {
         return name;
     }
     
-    // **HelloWorld** and **Multiply** function makes user of modifier **pure** to indicate that this function returns a value using
-    //only function parameters and does not make use of any external variable 
+    // **HelloWorld** and **Multiply** function makes user of modifier **pure** 
+    //to indicate that this function returns a value using only function parameters 
+    //and does not make use of any external variable 
     
     function HelloWorld () public pure returns (string) 
     {
