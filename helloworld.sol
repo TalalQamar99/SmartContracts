@@ -16,7 +16,7 @@ contract test{
         return name;
     }
     
-    // **HelloWorld** and **Multiply** function makes user of modifier **pure** 
+    // **HelloWorld** and **Multiply** function makes use of modifier **pure** 
     //to indicate that this function returns a value using only function parameters 
     //and does not make use of any external variable 
     
